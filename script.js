@@ -76,15 +76,10 @@ function desencriptarTexto(stringDesencriptada){
 
 function btnCopiar() {
     
-    // Selecciona el contenido del textarea
     mensaje.select();
-    mensaje.setSelectionRange(0, 99999); // Para dispositivos móviles
+    mensaje.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(mensaje.value);
+   
 
-    // Copia el texto al portapapeles
-    navigator.clipboard.writeText(mensaje.value).then(() => {
-        console.log("Texto copiado al portapapeles");
-    }).catch(err => {
-        console.error("Error al copiar el texto: ", err);
-    });
 }
 

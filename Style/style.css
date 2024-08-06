@@ -277,6 +277,7 @@ button:active{
     .contenido-2-contenedor-alert{
         position: absolute;
         margin-top: 45px;
+        height: 50%;
     }
     .contenido-2-contenedor-btn{
         gap: 5%;
