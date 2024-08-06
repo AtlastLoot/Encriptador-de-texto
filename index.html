@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="/Style/style.css">
+</head>
+<body>
+    <header class="logo">
+        <img class="logo-img" src="/assest/Logo.png" alt="logo">
+
+    </header>
+    <main>
+        <section class="contenido-1">
+           
+            <div class="contenido-1-contenedor">
+                <textarea id="textoUsuario" class="contenido-1-contenedor-textArea" id="" cols="30" rows="10" placeholder="Ingrese el Texto aqui"></textarea>
+                <div class="contenido-1-contenedor-alert">
+                    <img class="contenido-1-contenedor-alert-img"  src="/assest/bi_exclamation-circle-fill.png" alt="alert">
+                    <h5>Solo letras minúsculas y sin acentos</h5>
+                </div>
+                <div class="contenido-1-contenedor-btn">
+                    <button onclick="btnEncriptar()" class="contenido-1-contenedor-btn-encriptar" >Encriptar</button>
+                    <button onclick="btnDesenncriptar()" class="contenido-1-contenedor-btn-desencriptar">Desencriptar</button>
+                </div>
+                
+            </div>
+        </section>
+        <section class="contenido-2-">
+
+            <div class="contenido-2-contenedor">
+                <textarea class="contenido-2-contenedor-textArea" readonly id="textoSalida" cols="30" rows="10"></textarea>
+                <div class="contenido-2-contenedor-alert">
+                    <h4 class="ms1">Ningún mensaje fue encontrado</h4>
+                    <h6 class="ms2">Ingresa el texto que desees encriptar o desencriptar.</h6>
+                </div>
+                <div class="contenido-2-contenedor-btn">
+                    <button class="contenido-2-contenedor-btn-copiar" onclick="btnCopiar()" >Copiar</button>
+                    <button class="contenido-2-contenedor-btn-limpiar" onclick="limpiarTexto()" >Limpiar</button>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Challenge by: <a href="https://www.aluracursos.com/">Alura Latam</a></p>
+        <p>Coded By: <a href="https://github.com/AtlastLoot">Geovanny Robelli</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
