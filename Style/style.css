@@ -302,13 +302,14 @@ button:active{
     }
 
 }
-@media (max-width:375px){
+@media (max-width:425px){
     .logo{
         text-align: center;
+        margin-left: 25px;
     }
     .logo-img{
         display: block;
-        margin: 0 auto;
+        margin: auto;
         padding: 0;
 
     }
