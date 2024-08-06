@@ -104,7 +104,7 @@ main{
     resize: none;
     border: none;
     background: transparent;
-    background-image: url(/assest/Muñeco.png);
+    background-image: url(assest/Muñeco.png);
     background-repeat: no-repeat;
     background-position: center;
 }
